@@ -1,18 +1,18 @@
 .daynis-timer-container {
-    background-color: #c4ff0d; /* Explicit background color */
+    background-color: #c4ff0d; /* Ensure background color is set */
     color: #333;
     margin: 0 auto;
     text-align: center;
     border-radius: 10px;
-    padding: 10px; /* Slight padding for aesthetics */
+    padding: 15px; /* Adjust padding for aesthetics */
 }
 
 .daynis-timer-container h1 {
     font-weight: normal;
     letter-spacing: .125rem;
     text-transform: uppercase;
-    margin-bottom: 10px; /* Reduced margin for spacing */
-    font-size: 1.8em; /* Adjusted font size */
+    margin-bottom: 15px; /* Adjust bottom margin */
+    font-size: 1.8em;
 }
 
 .daynis-timer-container ul {
@@ -20,22 +20,21 @@
     padding: 0;
     display: flex; /* Flex layout for horizontal alignment */
     justify-content: center; /* Center items horizontally */
-    margin-top: 10px; /* Added space between header and countdown */
+    margin-top: 15px; /* Space between header and countdown */
 }
 
 .daynis-timer-container li {
     display: flex; /* Flex layout for each item */
     flex-direction: column; /* Stack numbers and labels vertically */
     align-items: center; /* Center items */
-    font-size: 1.2em; /* Adjusted font size */
-    padding: 0; /* No padding */
-    margin: 0 15px; /* Space between each countdown item */
+    font-size: 1.2em;
+    margin: 0 20px; /* Space between each countdown item */
 }
 
 .daynis-timer-container li span {
     display: block;
-    font-size: 3rem; /* Adjusted font size for numbers */
-    margin-bottom: 15px; /* Increased margin for spacing between numbers and labels */
+    font-size: 3rem; /* Font size for numbers */
+    margin-bottom: 20px; /* Space between numbers and labels */
 }
 
 .daynis-timer-container .emoji {
@@ -44,22 +43,22 @@
 }
 
 .daynis-timer-container .emoji span {
-    font-size: 3rem; /* Adjusted emoji font size */
+    font-size: 3rem;
     padding: 0 .5rem;
 }
 
 @media all and (max-width: 768px) {
     .daynis-timer-container h1 {
-        font-size: 1.5em; /* Adjusted font size for smaller screens */
+        font-size: 1.5em;
     }
 
     .daynis-timer-container li {
-        font-size: 1em; /* Adjusted font size for smaller screens */
-        margin: 0 10px; /* Reduced space between each countdown item for smaller screens */
+        font-size: 1em;
+        margin: 0 10px; /* Adjusted margin for smaller screens */
     }
 
     .daynis-timer-container li span {
-        font-size: 2.5rem; /* Adjusted font size for numbers on smaller screens */
+        font-size: 2.5rem; /* Smaller font size for numbers on smaller screens */
         margin-bottom: 10px; /* Adjusted margin for smaller screens */
     }
 }
