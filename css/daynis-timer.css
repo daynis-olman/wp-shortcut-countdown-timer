@@ -3,9 +3,8 @@
     color: #333;
     margin: 0 auto;
     text-align: center;
-    padding: 0; /* No padding */
     border-radius: 10px;
-    max-width: 600px; /* Limit maximum width */
+    padding: 10px; /* Slight padding for aesthetics */
 }
 
 .daynis-timer-container h1 {
@@ -30,6 +29,7 @@
     align-items: center; /* Center items */
     font-size: 1.2em; /* Adjusted font size */
     padding: 0; /* No padding */
+    margin: 0 15px; /* Space between each countdown item */
 }
 
 .daynis-timer-container li span {
@@ -55,6 +55,7 @@
 
     .daynis-timer-container li {
         font-size: 1em; /* Adjusted font size for smaller screens */
+        margin: 0 10px; /* Reduced space between each countdown item for smaller screens */
     }
 
     .daynis-timer-container li span {
