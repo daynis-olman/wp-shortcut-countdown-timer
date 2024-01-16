@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Sale Countdown Timer
+ * Plugin Name: QuadFit Sale Countdown Timer
  * Description: A simple countdown timer plugin.
  * Version: 1.0
  * Author: Daynis Olman
