@@ -1,0 +1,52 @@
+.daynis-timer-container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.daynis-timer-container h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+.daynis-timer-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.daynis-timer-container li {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.daynis-timer-container li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+.daynis-timer-container .emoji {
+    display: none;
+    padding: 1rem;
+}
+
+.daynis-timer-container .emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+    .daynis-timer-container h1 {
+        font-size: calc(1.5rem * var(--smaller));
+    }
+
+    .daynis-timer-container li {
+        font-size: calc(1.125rem * var(--smaller));
+    }
+
+    .daynis-timer-container li span {
+        font-size: calc(3.375rem * var(--smaller));
+    }
+}
