@@ -7,7 +7,7 @@ Daynis Timer is a simple, easy-to-use WordPress plugin that provides a countdown
 - Simple and clean countdown timer.
 - Easy to install and use via a shortcode.
 - Fully responsive design that works on all devices.
-- Customizable to fit the style of your website.
+- Customisable to fit the style of your website.
 
 ## Installation
 
