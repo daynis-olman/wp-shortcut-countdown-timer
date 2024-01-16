@@ -1,30 +1,41 @@
 .daynis-timer-container {
+    background-color: #c4ff0d; /* Explicit background color */
     color: #333;
     margin: 0 auto;
     text-align: center;
+    padding: 0; /* No padding */
+    border-radius: 10px;
+    max-width: 600px; /* Limit maximum width */
 }
 
 .daynis-timer-container h1 {
     font-weight: normal;
     letter-spacing: .125rem;
     text-transform: uppercase;
+    margin-bottom: 10px; /* Reduced margin for spacing */
+    font-size: 1.8em; /* Adjusted font size */
 }
 
 .daynis-timer-container ul {
     list-style-type: none;
     padding: 0;
+    display: flex; /* Flex layout for horizontal alignment */
+    justify-content: center; /* Center items horizontally */
+    margin-top: 10px; /* Added space between header and countdown */
 }
 
 .daynis-timer-container li {
-    display: inline-block;
-    font-size: 1.5em;
-    padding: 1em;
-    text-transform: uppercase;
+    display: flex; /* Flex layout for each item */
+    flex-direction: column; /* Stack numbers and labels vertically */
+    align-items: center; /* Center items */
+    font-size: 1.2em; /* Adjusted font size */
+    padding: 0; /* No padding */
 }
 
 .daynis-timer-container li span {
     display: block;
-    font-size: 4.5rem;
+    font-size: 3rem; /* Adjusted font size for numbers */
+    margin-bottom: 15px; /* Increased margin for spacing between numbers and labels */
 }
 
 .daynis-timer-container .emoji {
@@ -33,20 +44,21 @@
 }
 
 .daynis-timer-container .emoji span {
-    font-size: 4rem;
+    font-size: 3rem; /* Adjusted emoji font size */
     padding: 0 .5rem;
 }
 
 @media all and (max-width: 768px) {
     .daynis-timer-container h1 {
-        font-size: calc(1.5rem * var(--smaller));
+        font-size: 1.5em; /* Adjusted font size for smaller screens */
     }
 
     .daynis-timer-container li {
-        font-size: calc(1.125rem * var(--smaller));
+        font-size: 1em; /* Adjusted font size for smaller screens */
     }
 
     .daynis-timer-container li span {
-        font-size: calc(3.375rem * var(--smaller));
+        font-size: 2.5rem; /* Adjusted font size for numbers on smaller screens */
+        margin-bottom: 10px; /* Adjusted margin for smaller screens */
     }
 }
