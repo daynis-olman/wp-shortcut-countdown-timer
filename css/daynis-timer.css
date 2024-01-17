@@ -1,86 +1,50 @@
-/* general styling */
-:root {
-    --smaller: .75;
-  }
-  
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  html, body {
-    height: 100%;
-    margin: 0;
-  }
-  
-  body {
-    align-items: center;
-    background-color: #c4ff0d;
-    display: flex;
-    font-family: -apple-system, 
-      BlinkMacSystemFont, 
-      "Segoe UI", 
-      Roboto, 
-      Oxygen-Sans, 
-      Ubuntu, 
-      Cantarell, 
-      "Helvetica Neue", 
-      sans-serif;
-  }
-  
-  .daynis-timer-container {
-    color: #333;
-    margin: 0 auto;
-    text-align: center;
-    max-width: 400px; /* Adjust the maximum width as needed */
-    padding: 10px;
-  }
-  
-  h1 {
-    font-weight: normal;
-    letter-spacing: .125rem;
-    text-transform: uppercase;
-    font-size: 1.5rem; /* Adjust the font size as needed */
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px; /* Add margin to separate from the countdown digits */
-  }
-  
-  li {
-    font-size: 1.2rem; /* Adjust the font size as needed */
-  }
-  
-  li span {
-    display: block;
-    font-size: 2.5rem; /* Adjust the font size as needed */
-  }
-  
-  .emoji {
-    display: none;
-    padding: 1rem;
-  }
-  
-  .emoji span {
-    font-size: 2rem; /* Adjust the font size as needed */
-  }
-  
-  @media all and (max-width: 768px) {
-    h1 {
-      font-size: calc(1.5rem * var(--smaller));
-    }
-    
-    li {
-      font-size: calc(1.2rem * var(--smaller));
-    }
-    
-    li span {
-      font-size: calc(2.5rem * var(--smaller));
-    }
-  }
-  
+.daynis-timer-container {
+  color: var(--daynis-timer-text-color, #333);
+  margin: 0 auto;
+  text-align: center;
+  max-width: 900px;
+  padding: 0;
+  background-color: var(--daynis-timer-background-color, #c4ff0d);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.daynis-timer-container h1 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.daynis-timer-container ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Adjusted for closer spacing */
+  padding: 0;
+}
+
+.daynis-timer-container li {
+  font-size: 1rem;
+  padding: 0 10px; /* Adjusted padding for closer spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.daynis-timer-container li span {
+  display: block;
+  font-size: 2.5rem;
+  margin-bottom: 3px;
+}
+
+.daynis-timer-container .emoji {
+  display: none;
+}

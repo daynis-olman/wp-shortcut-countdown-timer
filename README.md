@@ -1,16 +1,18 @@
 # Daynis Countdown Timer Plugin
 
-The **Daynis Countdown Timer** is a simple and customizable WordPress plugin that allows you to display a countdown timer on your website. You can use this plugin to create countdowns for various events, promotions, or offers. The timer can be easily configured through the WordPress admin panel, making it a versatile tool for engaging your website visitors.
+![Frontend Countdown Timer](screenshots/demo.gif)
+
+The **Daynis Countdown Timer** is a simple and customisable WordPress plugin that allows you to display a countdown timer on your website. You can use this plugin to create countdowns for various events, promotions, or offers. The timer can be easily configured through the WordPress admin panel, making it a versatile tool for engaging your website visitors.
 
 ## Features
 
 - **Countdown Timer:** Display a countdown timer on your website to create a sense of urgency and excitement for your visitors.
 
-- **Customizable:** Customize the countdown date, background color, text color, and countdown title text to match your website's design and style.
+- **Customizable:** Customise the countdown date, background color, text color, and countdown title text to match your website's design and style.
 
 - **Settings Page:** Easily configure the plugin settings through the WordPress admin panel.
 
-- **Shortcode:** Use the `[daynis-timer]` shortcode to insert the countdown timer into any post or page on your website.
+- **Shortcode:** Use the `[daynis-timer]` shortcode to insert the countdown timer into any post or page on your website. 
 
 - **Option to Hide:** Hide the countdown timer by enabling the "Hide Plugin" option in the settings.
 
@@ -54,7 +56,7 @@ The **Daynis Countdown Timer** is a simple and customizable WordPress plugin tha
 
 - To change the countdown date, go to the plugin settings page in the WordPress admin panel.
 
-- To customize the countdown title text, background color, and text color, visit the plugin settings as well.
+- To customise the countdown title text, background color, and text color, visit the plugin settings as well.
 
 ## License
 

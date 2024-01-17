@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Daynis WP Countdown Timer
- * Description: A simple countdown timer plugin.
+ * Plugin Name: Daynis Shortcode Countdown Timer
+ * Description: A simple configurable WordPress countdown timer plugin.
  * Version: 1.0
  * Author: Daynis Olman
  */
@@ -15,7 +15,7 @@ add_action('wp_enqueue_scripts', 'daynis_timer_assets');
 
 // Add menu item for settings page
 function daynis_timer_menu() {
-    add_options_page('Daynis Timer Settings', 'Daynis Timer', 'manage_options', 'daynis-timer', 'daynis_timer_settings_page');
+    add_options_page('Daynis Countdown Timer Settings', 'Countdown Timer', 'manage_options', 'daynis-timer', 'daynis_timer_settings_page');
 }
 add_action('admin_menu', 'daynis_timer_menu');
 
